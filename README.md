@@ -1,43 +1,43 @@
-# 🚨 Deprem Durumlarında Haberleşme Ağı Projesi
+# 🚨 Earthquake Communication Network Infrastructure Project
 
 [![IEEE Access](https://img.shields.io/badge/IEEE-Access-blue.svg)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639)
 [![Publication Date](https://img.shields.io/badge/Publication-05%20June%202024-green.svg)]()
 [![DOI](https://img.shields.io/badge/DOI-10.1109/ACCESS.2023.1120000-yellow.svg)]()
 
-## 📋 Proje Hakkında
+## 📋 About the Project
 
-Bu proje, **6 Şubat 2023 tarihinde Türkiye'yi vuran 7.8 büyüklüğündeki deprem** sonrası yaşanan haberleşme altyapısı sorunlarından yola çıkarak geliştirilmiş deneysel bir çözümdür. Modern tarihin en ölümcül doğal afetlerinden biri olan bu deprem, kritik haberleşme altyapısının ne kadar önemli olduğunu bir kez daha göstermiştir.
+This project is an experimental solution developed based on the communication infrastructure problems experienced after the **7.8 magnitude earthquake that struck Turkey on February 6, 2023**. This earthquake, one of the deadliest natural disasters in modern history, once again demonstrated the critical importance of robust communication infrastructure.
 
-**IEEE Access dergisinde yayımlanan** bu araştırma projesi, deprem gibi doğal afet durumlarında kritik haberleşme altyapısının sürekliliğini sağlamak amacıyla Cisco ağ teknolojileri kullanılarak tasarlanmış bir network altyapı çözümüdür. Proje, afet durumlarında bile güvenilir ve dayanıklı bir iletişim ağı oluşturmayı hedeflemektedir.
+**Published in IEEE Access journal**, this research project is a network infrastructure solution designed using Cisco network technologies to ensure the continuity of critical communication infrastructure during natural disasters such as earthquakes. The project aims to create a reliable and resilient communication network even during disaster conditions.
 
-## 🎯 Proje Amacı
+## 🎯 Project Objectives
 
-- **Deprem Dayanıklılığı**: Fiziksel hasar durumlarında alternatif iletişim yolları sağlama
-- **Yedeklilik (Redundancy)**: Kritik noktalarda çoklu bağlantı seçenekleri oluşturma
-- **Hızlı Kurtarma**: Kesintiler sonrası hızlı ağ restore işlemleri
-- **Öncelikli Trafik**: Acil durum trafiğinin önceliklendirilmesi
-- **Merkezi Yönetim**: Afet koordinasyon merkezleri arası güvenli iletişim
+- **Earthquake Resilience**: Providing alternative communication paths during physical damage scenarios
+- **Redundancy**: Creating multiple connection options at critical points
+- **Rapid Recovery**: Fast network restoration operations after outages
+- **Priority Traffic**: Prioritization of emergency traffic
+- **Centralized Management**: Secure communication between disaster coordination centers
 
-## 🛠️ Kullanılan Teknolojiler ve Materyaller
+## 🛠️ Technologies and Materials Used
 
-### Cisco Ekipmanları
+### Cisco Equipment
 
-#### A. Switch'ler
-- **Cisco Catalyst 2960-24TT Switch**: 24 adet 10/100 Ethernet portu ve 2 adet 10/100/1000 uplink portu bulunan yönetilen switch. QoS desteği ve ACL, 802.1X authentication gibi güvenlik özellikleri sağlar.
+#### A. Switches
+- **Cisco Catalyst 2960-24TT Switch**: Managed switch with 24 10/100 Ethernet ports and 2 10/100/1000 uplink ports. Provides QoS support and security features such as ACL and 802.1X authentication.
 
-#### B. Router'lar  
-- **Cisco ISR 4321 Router**: Küçük ve orta ölçekli işletmeler için tasarlanmış yüksek performanslı router. Esnek bağlantı seçenekleri, firewall ve VPN gibi güvenlik özellikleri sunar.
-- **Wireless Router**: Tablet, laptop ve akıllı telefonların kablosuz bağlantı kurmasını sağlar.
+#### B. Routers  
+- **Cisco ISR 4321 Router**: High-performance router designed for small and medium-sized businesses. Offers flexible connectivity options and security features such as firewall and VPN.
+- **Wireless Router**: Enables tablets, laptops, and smartphones to establish wireless connections.
 
-#### C. Son Kullanıcı Cihazları
-- **PC-PT**: Şehirler arası paket gönderimi yapabilen masaüstü bilgisayarlar
-- **Web Server**: HTTP protokolü üzerinden web sayfalarını kullanıcılara sunan sistem
-- **Laptop, Tablet, Smartphone**: Kullanıcıların ağ servislerine erişimini sağlayan cihazlar
+#### C. End-User Devices
+- **PC-PT**: Desktop computers capable of inter-city packet transmission
+- **Web Server**: System that serves web pages to users over HTTP protocol
+- **Laptop, Tablet, Smartphone**: Devices that provide users access to network services
 
-#### D. Network Altyapısı
-- **Network Cable**: Router, switch ve server'lar arasında fiziksel bağlantı sağlayan kablolar
+#### D. Network Infrastructure
+- **Network Cable**: Cables providing physical connections between routers, switches, and servers
 
-### Protokoller ve Servisler
+### Protocols and Services
 - **Routing**: OSPF, EIGRP
 - **Switching**: VLANs, STP
 - **Redundancy**: HSRP/VRRP
@@ -45,79 +45,79 @@ Bu proje, **6 Şubat 2023 tarihinde Türkiye'yi vuran 7.8 büyüklüğündeki de
 - **Security**: VPN, ACLs
 - **Wireless**: WPA3 Enterprise
 
-## 📁 Proje Dosyaları
+## 📁 Project Files
 
-- `Ragıp_Günay.pkt` - Cisco Packet Tracer proje dosyası
-- `Ragıp_Günay.pdf` - Proje dokümantasyonu ve teknik detaylar
-- `README.md` - Bu dosya
+- `Ragıp_Günay.pkt` - Cisco Packet Tracer project file
+- `Ragıp_Günay.pdf` - Project documentation and technical details
+- `README.md` - This file
 
-## 🔧 Kurulum ve Çalıştırma
+## 🔧 Installation and Execution
 
-### Gereksinimler
-- Cisco Packet Tracer 8.0 veya üzeri
-- PDF okuyucu (dokümantasyon için)
+### Requirements
+- Cisco Packet Tracer 8.0 or higher
+- PDF reader (for documentation)
 
-### Çalıştırma Adımları
+### Execution Steps
 
-1. **Packet Tracer'ı Açın**
+1. **Open Packet Tracer**
    ```
-   Cisco Packet Tracer uygulamasını başlatın
-   ```
-
-2. **Proje Dosyasını Açın**
-   ```
-   File > Open > Ragıp_Günay.pkt dosyasını seçin
+   Launch Cisco Packet Tracer application
    ```
 
-3. **Simülasyonu Başlatın**
+2. **Open Project File**
    ```
-   Simulation mode'a geçerek network trafiğini izleyin
+   File > Open > Select Ragıp_Günay.pkt file
    ```
 
-4. **Test Senaryoları**
-   - Normal durum connectivity testleri
-   - Link failure senaryoları
-   - Deprem simülasyon testleri
+3. **Start Simulation**
+   ```
+   Switch to simulation mode to monitor network traffic
+   ```
 
-## 🏗️ Network Mimarisi ve Metodoloji
+4. **Test Scenarios**
+   - Normal state connectivity tests
+   - Link failure scenarios
+   - Earthquake simulation tests
 
-![Cisco Packet Tracer Şeması](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue.svg)
+## 🏗️ Network Architecture and Methodology
 
-### Subnet Yapısı ve Şehir Ağları
+![Cisco Packet Tracer Schema](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue.svg)
 
-#### 🟡 Aydın Şehir Ağı (Sarı Alan)
+### Subnet Structure and City Networks
+
+#### 🟡 Aydın City Network (Yellow Area)
 - **2x Router** (ISR 4321 + Wireless Router)
 - **1x Switch** (Catalyst 2960-24TT)
-- **1x Web Server** (HTTP servislerı için)
+- **1x Web Server** (for HTTP services)
 - **2x Desktop PC** + **1x Laptop** + **1x Smartphone** + **1x Tablet**
-- **İşlev**: Ana haberleşme hub'ı, web servislerı ve şehirler arası iletişim
+- **Function**: Main communication hub, web services, and inter-city communication
 
-#### 🟣🟢🔵🩷 İstanbul Şehir Ağları (Çoklu Renkli Alanlar)
-- **1x Router** (ISR 4321) her bölge için
-- **1x Switch** (Catalyst 2960-24TT) her bölge için  
-- **2x Desktop PC** her bölge için
-- **İşlev**: Dağıtılmış haberleşme noktaları, şehirler arası paket yönlendirme
+#### 🟣🟢🔵🩷 Istanbul City Networks (Multi-colored Areas)
+- **1x Router** (ISR 4321) per region
+- **1x Switch** (Catalyst 2960-24TT) per region  
+- **2x Desktop PC** per region
+- **Function**: Distributed communication points, inter-city packet routing
 
-#### 🔴 Acil Durum Merkezi (Emergency Area)
+#### 🔴 Emergency Center (Emergency Area)
 - **2x Redundant Router** (ISR 4321)
-- **İşlev**: Kritik yedek sistem - şehirler arasında bağlantı sorunu olduğunda alternatif yol sağlar
-- **Örnek Senaryo**: Aydın-İzmir arası doğrudan bağlantı kesildiğinde, acil durum router'ları üzerinden iletişim devam eder
+- **Function**: Critical backup system - provides alternative paths when connection problems occur between cities
+- **Example Scenario**: When direct connection between Aydın-İzmir is cut, communication continues through emergency routers
 
-### Redundancy Stratejisi
+### Redundancy Strategy
 
-#### Üçlü Yedeklilik Sistemi
-1. **Birincil Yol**: Doğrudan şehir-şehir bağlantıları
-2. **İkincil Yol**: Alternative şehir üzerinden geçiş
-3. **Acil Durum Yolu**: Emergency router'lar üzerinden backup bağlantı
+#### Triple Redundancy System
+1. **Primary Path**: Direct city-to-city connections
+2. **Secondary Path**: Transit through alternative cities
+3. **Emergency Path**: Backup connection through emergency routers
 
 #### Fault Tolerance
-- **Single Point of Failure**: Elimine edilmiş
-- **Alternative Routing**: Otomatik failover
-- **Load Distribution**: Trafik dağılımı optimizasyonu
+- **Single Point of Failure**: Eliminated
+- **Alternative Routing**: Automatic failover
+- **Load Distribution**: Traffic distribution optimization
 
-## 🚀 Özellikler
+## 🚀 Features
 
-### ✅ Mevcut Özellikler
+### ✅ Current Features
 - [x] Redundant network paths
 - [x] QoS implementation
 - [x] VLAN segmentation
@@ -125,32 +125,32 @@ Bu proje, **6 Şubat 2023 tarihinde Türkiye'yi vuran 7.8 büyüklüğündeki de
 - [x] Security policies
 - [x] Network monitoring
 
-### 🔄 Deprem Senaryoları
-- **Senaryo 1**: Ana fiber hat kesintisi
-- **Senaryo 2**: Güç kaybı durumu
-- **Senaryo 3**: Fiziksel ekipman hasarı
-- **Senaryo 4**: Trafik yoğunluğu artışı
+### 🔄 Earthquake Scenarios
+- **Scenario 1**: Main fiber line outage
+- **Scenario 2**: Power loss situation
+- **Scenario 3**: Physical equipment damage
+- **Scenario 4**: Traffic congestion increase
 
-## 📊 Performance Metrikleri
+## 📊 Performance Metrics
 
-| Metrik | Normal Durum | Deprem Durumu |
-|--------|-------------|---------------|
-| Uptime | %99.9 | %95+ |
+| Metric | Normal State | Earthquake State |
+|--------|-------------|------------------|
+| Uptime | 99.9% | 95%+ |
 | Latency | <50ms | <200ms |
 | Throughput | 1Gbps | 100Mbps+ |
-| Recovery Time | - | <5 dakika |
+| Recovery Time | - | <5 minutes |
 
-## 🔐 Güvenlik
+## 🔐 Security
 
-- **Encryption**: End-to-end şifreleme
+- **Encryption**: End-to-end encryption
 - **Authentication**: Multi-factor authentication
 - **Access Control**: Role-based permissions
-- **Monitoring**: 7/24 network monitoring
-- **Backup**: Otomatik veri yedekleme
+- **Monitoring**: 24/7 network monitoring
+- **Backup**: Automatic data backup
 
-## ⚙️ Konfigürasyon Detayları
+## ⚙️ Configuration Details
 
-### Router Konfigürasyonu
+### Router Configuration
 ```cisco
 Router> enable
 Router# configure terminal
@@ -161,91 +161,91 @@ Router(config-if)# no shutdown
 Router(config-if)# exit
 ```
 
-**Konfigürasyon Adımları:**
-1. Router'ı başlatma ve global konfigürasyon moduna geçiş
-2. Anlamlı hostname atama
-3. Her interface için IP address ve subnet mask belirleme
-4. Interface'leri aktifleştirme
-5. Subnet'ler ve şehirler arası iletişimi sağlama
+**Configuration Steps:**
+1. Starting router and entering global configuration mode
+2. Assigning meaningful hostname
+3. Determining IP address and subnet mask for each interface
+4. Activating interfaces
+5. Enabling subnet and inter-city communication
 
-### Server Konfigürasyonu
+### Server Configuration
 ```bash
-# Sunucu başlatma ve temel işletim sistemi ayarları
-# Anlamlı host name atama
-# Static IP address belirleme
-# Web browser üzerinden paket gönderme iletişimi
+# Server startup and basic operating system settings
+# Assigning meaningful host name
+# Determining static IP address
+# Web browser-based packet transmission communication
 ```
 
-**Server Özellikleri:**
+**Server Features:**
 - Static IP configuration
 - HTTP/HTTPS service hosting
 - Web-based communication interface
 - Emergency service integration
 
-## 📖 Akademik Dokümantasyon
+## 📖 Academic Documentation
 
-### IEEE Access Yayını
-- **Makale Başlığı**: "The Experimental Solution to The Problem of Communication Infrastructure in The Most Deadly Natural Disaster"
-- **Yayın Tarihi**: 05 Haziran 2024
+### IEEE Access Publication
+- **Article Title**: "The Experimental Solution to The Problem of Communication Infrastructure in The Most Deadly Natural Disaster"
+- **Publication Date**: June 05, 2024
 - **DOI**: 10.1109/ACCESS.2023.1120000
-- **Referans No**: (230206:0427)
+- **Reference No**: (230206:0427)
 
-### Dokümantasyon İçeriği
-Detaylı teknik dokümantasyon için `Ragıp_Günay.pdf` dosyasını inceleyiniz:
+### Documentation Content
+For detailed technical documentation, please review the `Ragıp_Günay.pdf` file:
 
-- **Materials Section**: Kullanılan ekipmanların detaylı açıklamaları
-- **Methodology Section**: Network altyapısı ve alt modüller
-- **Implementation Section**: Demo ortamı açıklamaları  
-- **Discussion & Conclusion**: Deneysel tasarımın artı/eksileri
-- **Network topology diyagramları**: Cisco Packet Tracer şemaları
-- **Konfigürasyon detayları**: Router ve server setup'ları
-- **Test sonuçları**: Performance metrikleri
-- **MÜDEK Program Çıktıları**: Akademik standartlar
+- **Materials Section**: Detailed descriptions of equipment used
+- **Methodology Section**: Network infrastructure and sub-modules
+- **Implementation Section**: Demo environment descriptions  
+- **Discussion & Conclusion**: Pros/cons of experimental design
+- **Network topology diagrams**: Cisco Packet Tracer schemas
+- **Configuration details**: Router and server setups
+- **Test results**: Performance metrics
+- **MÜDEK Program Outcomes**: Academic standards
 
-## 🤝 Katkıda Bulunma
+## 🤝 Contributing
 
-Bu proje eğitim amaçlı geliştirilmiştir. Katkılarınız ve önerileriniz değerlidir:
+This project has been developed for educational purposes. Your contributions and suggestions are valuable:
 
-1. Fork edin
-2. Feature branch oluşturun
-3. Değişikliklerinizi commit edin
-4. Pull request gönderin
+1. Fork the project
+2. Create a feature branch
+3. Commit your changes
+4. Send a pull request
 
-## 🔬 Akademik Sonuçlar ve Tartışma
+## 🔬 Academic Results and Discussion
 
-### Başarılı Çıktılar
-- ✅ Şehirler arası kesintisiz haberleşme sağlandı
-- ✅ Redundant network path'leri ile tek nokta arıza riski elimine edildi
-- ✅ Emergency router'lar ile alternatif veri yolları oluşturuldu
-- ✅ Web server entegrasyonu ile temel servislere erişim sağlandı
-- ✅ QoS ve VLAN implementasyonu ile trafik optimizasyonu
+### Successful Outcomes
+- ✅ Uninterrupted inter-city communication achieved
+- ✅ Single point of failure risk eliminated with redundant network paths
+- ✅ Alternative data paths created with emergency routers
+- ✅ Access to basic services provided through web server integration
+- ✅ Traffic optimization through QoS and VLAN implementation
 
-### Gelecek Çalışmalar
-- 🔄 Satellite bağlantıları entegrasyonu
-- 🔄 Mobile Command Center'lar için mesh network
+### Future Work
+- 🔄 Satellite connectivity integration
+- 🔄 Mesh network for Mobile Command Centers
 - 🔄 AI-powered automatic failover systems
 - 🔄 Real-time network monitoring dashboard
 - 🔄 Integration with national emergency systems
 
-## 📞 İletişim
+## 📞 Contact
 
-### Yazar Bilgileri
+### Author Information
 **Ragıp Günay**  
-- 📧 E-posta: 200316007@gmail.com
-- 🎓 Manisa Celal Bayar Üniversitesi, Bilgisayar Mühendisliği Bölümü
-- 📍 Prof.Dr. İlhan Varank Kampüsü, Muradiye, MANİSA
-- 🆔 Öğrenci No: 200316007
+- 📧 Email: ragipgunay09@gmail.com
+- 🎓 Manisa Celal Bayar University, Computer Engineering Department
+- 📍 İzmir,Turkey
+- ☎️ +90 538 034 26 41
 
-### Akademik Referanslar
+### Academic References
 1. [NAKIVO - Network Disaster Recovery Plan](https://www.nakivo.com/blog/create-effective-network-disaster-recovery-plan/)
 2. [ConnectWise - Network Infrastructure Design Best Practices](https://www.connectwise.com/blog/business-continuity/network-infrastructure-design-best-practices)
 3. [Cloudian - Disaster Recovery Guide](https://cloudian.com/guides/disaster-recovery/disaster-recovery-5-key-features-and-building-your-dr-plan/)
 
-## 📄 Lisans ve Telif Hakları
+## 📄 License and Copyright
 
-Bu proje **IEEE Access** dergisinde yayımlanmış akademik bir araştırmadır. Eğitim amaçlı kullanım için açık kaynak olarak paylaşılmıştır.
+This project is an academic research published in **IEEE Access** journal. It is shared as open source for educational purposes.
 
-### Alıntı Formatı
+### Citation Format
 ```bibtex
 @article{gunay2024experimental,
   title={The Experimental Solution to The Problem of Communication Infrastructure in The Most Deadly Natural Disaster:(230206:0427) of Modern History},
@@ -259,15 +259,15 @@ Bu proje **IEEE Access** dergisinde yayımlanmış akademik bir araştırmadır.
 
 ---
 
-## ⚠️ Önemli Notlar
+## ⚠️ Important Notes
 
-> **Akademik Çalışma**: Bu proje **IEEE Access** dergisinde yayımlanmış akademik bir araştırmadır. 6 Şubat 2023 Türkiye depremi sonrası haberleşme altyapısı sorunlarından yola çıkarak geliştirilmiştir.
+> **Academic Work**: This project is an academic research published in **IEEE Access** journal. It was developed based on communication infrastructure problems experienced after the February 6, 2023 Turkey earthquake.
 
-> **Deneysel Çözüm**: Bu çalışma deprem ve afet durumlarında kritik haberleşme altyapısının önemini vurgulamak ve bu konuda farkındalık yaratmak amacıyla hazırlanmıştır. Gerçek afet durumlarında profesyonel afet yönetim protokollerini takip ediniz.
+> **Experimental Solution**: This study was prepared to emphasize the importance of critical communication infrastructure during earthquakes and disasters and to raise awareness on this topic. Please follow professional disaster management protocols in real disaster situations.
 
-> **MÜDEK Standartları**: Proje, Mühendislik Eğitim Programları Değerlendirme ve Akreditasyon Derneği (MÜDEK) program çıktıları göz önünde bulundurularak hazırlanmıştır.
+> **MÜDEK Standards**: The project was prepared taking into account the program outcomes of the Association for Evaluation and Accreditation of Engineering Education Programs (MÜDEK).
 
-## 🏷️ Anahtar Kelimeler
+## 🏷️ Keywords
 
 **IEEE Index Terms**: `Network` • `Communication` • `Network Infrastructure` • `Network Services` • `Network Design` • `Network Demo`
 
